@@ -8,7 +8,8 @@ import { ImageBox } from "../../components/ImageBox/ImageBox";
 function HomePage() {
  
   const Img = <img src={jpImg} className="jp-img" ></img>
-  const Pointer = <img src={pointerImg} className="pointer"></img>;
+  const Pointer = <span className="pointer">👾</span>
+  // <img src={pointerImg} className="pointer"></img>;
   return (
     <div className="container">
       <div>
@@ -24,7 +25,7 @@ function HomePage() {
       </div>
       <div className="bg-light-dark home-image-box">
         <ImageBox className="bg-blue image-box">
-         {Pointer}
+         {Pointer }
           {Img}
           <button>Juan Pablo Regino</button>
         </ImageBox>
