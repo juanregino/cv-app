@@ -5,10 +5,11 @@ import { Link } from 'react-router-dom';
  function NavBar() {
   return (
     <div className='NavContainer'>
-      <Link to='/'>Home</Link>
-      <Link to = '/my-skills'>My Skills</Link>
-      <Link to = '/projects'>Projects</Link>
-      <Link to = '/contact'>Contact</Link>
+      <Link className='nav-ancla' to='/'>Home</Link>
+      <Link className='nav-ancla' to = '/my-skills'>My Skills</Link> 
+      <Link className='nav-ancla' to = '/projects'>Projects</Link> 
+      <Link className='nav-ancla' to = '/contact'>Contact</Link>
+      <div></div>
     </div>
   );
 }

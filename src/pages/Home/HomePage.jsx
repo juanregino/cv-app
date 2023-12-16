@@ -24,7 +24,7 @@ function HomePage() {
         </Rectangle>
       </div>
       <div className="bg-light-dark home-image-box">
-        <ImageBox className="bg-blue image-box">
+        <ImageBox className="bg-light-blue image-box">
          {Pointer }
           {Img}
           <button>Juan Pablo Regino</button>

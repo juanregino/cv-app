@@ -14,10 +14,11 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <>
-      <nav>
-        <NavBar></NavBar>
-      </nav>
-
+      <header>
+        <nav>
+          <NavBar></NavBar>
+        </nav>
+      </header>
       <main className="bg-light-blue">
         <Routes>
           <Route path="/" Component={HomePage} />

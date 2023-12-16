@@ -52,15 +52,17 @@
 
 .card__img {
   width: 285px;
-  border-radius: 1.5rem;
+   border-top-right-radius: 20px; /* Radio del borde superior izquierdo */
+  border-bottom-left-radius: 20px;
 }
 
 .card__data {
   width: 260px;
   background-color: var(--container-color);
   padding: 1.5rem 2rem;
-  box-shadow: 0 8px 24px hsla(0, 0%, 50%, 0.842);
-  border-radius: 1rem;
+  box-shadow: 0 8px 24px hsla(0, 0%, 30%, 0.842);
+   border-top-right-radius: 20px; /* Radio del borde superior izquierdo */
+  border-bottom-left-radius: 20px;
   position: absolute;
   bottom: -9rem;
   left: 0;

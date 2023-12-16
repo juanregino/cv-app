@@ -6,7 +6,7 @@ export const data = [
       "Aplicacion navideña con una cuenta regresiva para el 31 de Diciembre",
     code: "git@github.com:juanregino/merry-christmas.git",
     technologies: "JavaScript, Html , Css",
-    img: "https://raw.githubusercontent.com/bedimcode/landscape-responsive-card/main/assets/img/landscape-2.png",
+    img: 'merry-christmas.png',
   },
   {
     id: Date.now(),
@@ -15,7 +15,7 @@ export const data = [
       "Aplicacion navideña con una cuenta regresiva para el 31 de Diciembre",
     code: "git@github.com:juanregino/merry-christmas.git",
     technologies: "JavaScript, Html , Css",
-    img: "https://raw.githubusercontent.com/bedimcode/landscape-responsive-card/main/assets/img/landscape-2.png",
+    img: "landscape-2.png",
   },
 
 ];

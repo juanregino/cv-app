@@ -15,10 +15,6 @@ body {
   min-height: 100vh;
 }
 
-.bg-blue {
-    
-    background-color: var(--light-blue);
-}
 
 .bg-light-blue{
     background-color: var(--light-blue);
@@ -30,8 +26,8 @@ body {
 .bg-white{
     background-color: #FFFFFF;
 }
-.bg-green{
-    background-color: #0ACF83;
+.bg-blue{
+    background-color: #228bff;
 }
 .bg-light-dark{
    background-color:  #222;
@@ -53,4 +49,8 @@ body {
     justify-content: center;
     align-items: center;
     gap: 2rem;
+}
+.border-box{
+    border-top-right-radius: 20px; 
+  border-bottom-left-radius: 20px;  
 }

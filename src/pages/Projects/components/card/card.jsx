@@ -4,7 +4,7 @@ function Card ({name,description,code,technologies,img}){
     
       <div className="card__container">
         <article className="card__article">
-          <img src={img} alt="image" className="card__img" />
+          <img src={`/imgs/${img}`} alt="image" className="card__img" />
 
           <div className="card__data">
             <h2 className="card__title">{name}</h2>

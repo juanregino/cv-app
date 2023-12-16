@@ -1,29 +1,35 @@
-.NavContainer{
-    margin: 0;
-    height: 6vh;
-    padding: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* border-bottom: .2rem solid ;
+.NavContainer {
+  margin: 0;
+  height: 6vh;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border-bottom: .2rem solid ;
     border-color: linear-gradient(to right, blue #fff);; */
-    font-family: 'K2D';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 1.5rem;
-    position: fixed;
-    text-decoration: none;
-    width: 100%;
-    background: #222;
-    column-gap: 10rem;
+  font-family: "K2D";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.4rem;
+  position: fixed;
+  text-decoration: none;
+  min-width: 100vw;
+  background: #222;
 }
 
-.NavContainer span{
-    color: #eff7ff;
-    margin-right: 4rem;
+.NavContainer .nav-ancla {
+  text-decoration: none;
+  color: #eff7ff;
+  width: 8rem;
+  text-align: center;
+  padding: auto;
+  border: 0.1rem solid transparent;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  transition: 1s;
 }
 
-a {
-    text-decoration: none;
-    color: #eff7ff;
+.NavContainer .nav-ancla:hover {
+  background-color: #6e6d6d7a;
+  transform:  scale(0.9, 0.9);
 }
