@@ -1,0 +1,56 @@
+:root{
+    --light-blue : #eff7ff;
+    --light-dark : #222;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  min-height: 100vh;
+}
+
+.bg-blue {
+    
+    background-color: var(--light-blue);
+}
+
+.bg-light-blue{
+    background-color: var(--light-blue);
+}
+
+.bg-light-dark {
+    background-color: var(--light-dark);
+}
+.bg-white{
+    background-color: #FFFFFF;
+}
+.bg-green{
+    background-color: #0ACF83;
+}
+.bg-light-dark{
+   background-color:  #222;
+}
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr  ;
+    padding-top: 6vh;
+   
+}
+
+.container-center-element{
+    place-items: center;
+}
+
+.center-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}

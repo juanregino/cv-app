@@ -1,0 +1,62 @@
+.rectangele-ligth-blue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5rem;
+  border-top: 0.2rem solid;
+  height: 100vh;
+}
+
+.text {
+  padding-top: 10vh;
+  font-size: 3rem;
+}
+
+.home-image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: solid 0.3rem black;
+  border-top: 0.2rem solid #eff7ff;
+}
+.image-box {
+  width: 22rem;
+  height: 24rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: -0.5rem 0.5rem black;
+  border: solid 0.1rem black;
+  position: relative;
+  gap: 1rem;
+  border-top-right-radius: 20px; /* Radio del borde superior izquierdo */
+  border-bottom-left-radius: 20px; /* Radio del borde inferior derecho */
+}
+.jp-img {
+  width: 16rem;
+  border-radius: 10px;
+}
+
+.pointer {
+  position: absolute;
+  left: -2.5rem;
+  top: -3.5rem;
+  width: 6rem;
+}
+button {
+  font-family: "JetBrains Mono";
+  background-color: #4c5152;
+  width: 12rem;
+  height: 2rem;
+  border: 0.05rem solid transparent;
+  /* border-radius: 10px; */
+  font-weight: 600;
+  transition: 0.5s;
+    border-top-right-radius: 10px; /* Radio del borde superior izquierdo */
+  border-bottom-left-radius: 10px;
+}
+button:hover {
+  transform: scale(1.1);
+}
