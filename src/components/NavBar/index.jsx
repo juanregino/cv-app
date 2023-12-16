@@ -5,9 +5,9 @@ import './style.css'
   return (
     <div className='NavContainer'>
       <a href='/'>Home</a>
-      <a href = '/MySkills'>My Skills</a>
-      <a href = '/Projects'>Projects</a>
-      <a href = '/Contact'>Contact</a>
+      <a href = '/my-skills'>My Skills</a>
+      <a href = '/projects'>Projects</a>
+      <a href = '/contact'>Contact</a>
     </div>
   );
 }

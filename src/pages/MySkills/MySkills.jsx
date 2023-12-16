@@ -8,8 +8,28 @@ import logo_react from "./stylesMySkills/logos_react.png";
 
 function MySkills() {
   return (
-    <div className="container padding">
-      {/* <div className="sub-container"> */}
+    <div className="container ">
+   
+      <div className="bg-light-blue center-content border">
+        <Rectangle>
+          <ul>
+            <h6 className="title-blue">Web Development:</h6>
+            <br />
+            <li>👾HTML</li>
+            <li>👾Css</li>
+            <li>👾JavaScript</li>
+            <li>👾React</li>
+          </ul>
+        </Rectangle>
+      </div>
+      <div className="bg-light-dark center-content border ">
+        <Rectangle className="rectangle-img">
+          <img src={logo_html} alt="" className="logo_html" />
+          <img src={logo_css} alt="" className="logo_html" />
+          <img src={logo_js} alt="" className="logo" />
+          <img src={logo_react} alt="" className="logo" />
+        </Rectangle>
+      </div>
       <div className="bg-light-dark center-content border  ">
         <Rectangle className="rectangle-img">
           <img
@@ -48,26 +68,6 @@ function MySkills() {
         </Rectangle>
       </div>
 
-      <div className="bg-light-blue center-content border">
-        <Rectangle>
-          <ul>
-            <h6 className="title-blue">Web Development:</h6>
-            <br />
-            <li>👾HTML</li>
-            <li>👾Css</li>
-            <li>👾JavaScript</li>
-            <li>👾React</li>
-          </ul>
-        </Rectangle>
-      </div>
-      <div className="bg-light-dark center-content border ">
-        <Rectangle className="rectangle-img">
-          <img src={logo_html} alt="" className="logo_html" />
-          <img src={logo_css} alt="" className="logo_html" />
-          <img src={logo_js} alt="" className="logo" />
-          <img src={logo_react} alt="" className="logo" />
-        </Rectangle>
-      </div>
       {/* </div> */}
     </div>
   );

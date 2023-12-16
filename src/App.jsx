@@ -21,9 +21,9 @@ function App() {
       <main className="bg-light-blue">
         <Routes>
           <Route path="/" Component={HomePage} />
-          <Route path="/MySkills" Component={MySkills} />
-          <Route path="/Contact" Component={Contact} />
-          <Route path="/Projects" Component={Projects} />
+          <Route path="/my-skills" Component={MySkills} />
+          <Route path="/contact" Component={Contact} />
+          <Route path="/projects" Component={Projects} />
         </Routes>
       </main>
     </>
