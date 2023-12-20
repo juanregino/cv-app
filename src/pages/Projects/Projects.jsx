@@ -7,13 +7,17 @@ import Card from "./components/card/card";
 
 function Projects() {
 
-  const projects = data.map((project)=>
-    <Card key={project.id} {...project}/>
+  const projects = data.map((project, index)=>
+    <Card key={project.id*index} {...project}/>
   )
   
   return (
     <div className="containerCard bg-light-dark">
+    <h1>Estos son algunos de mis proyectos</h1>
+   
+     <div className="contenedor">
      {projects}
+     </div>
     </div>
   );
 }

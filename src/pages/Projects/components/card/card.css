@@ -31,8 +31,9 @@
 
 .card__article img {
   display: block;
-  max-width: 100%;
-  height: auto;
+  width: 270px;
+  height: 300px;
+  object-fit: cover;
 }
 
 /*=============== CARD ===============*/
@@ -48,6 +49,8 @@
 .card__article {
   position: relative;
   overflow: hidden;
+    width: 270px;
+  height: 300px;
 }
 
 .card__img {

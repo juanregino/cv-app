@@ -3,11 +3,15 @@
 import Rectangle from "../../components/rectangle";
 
 import "./stylesContact/contact.css";
-import Gmail_logo from "./stylesContact/Gmail-icon.png";
-import git_logo from "./stylesContact/git-logo.png";
+
 import download_logo from "./stylesContact/download-logo.png";
-import linkedin_logo from "./stylesContact/linkedin-logo.png";
-import whatsap_logo from "./stylesContact/whatsapp-icon.png";
+
+import { BiLogoGmail } from "react-icons/bi";
+import { FaGithub } from "react-icons/fa6";
+import { CiLinkedin } from "react-icons/ci";
+import { FaWhatsapp } from "react-icons/fa";
+
+
 
 function Contact() {
   return (
@@ -15,30 +19,33 @@ function Contact() {
       {/* <div className="sub-container"> */}
       <div className="right">
         <Rectangle className="bg-white button-text center-content border-button pinch">
-          <a href="" target="_blank"> GET IN TOUCH </a>
+          <a href="" target="_blank">
+            {" "}
+            GET IN TOUCH{" "}
+          </a>
         </Rectangle>
       </div>
       <div className="center">
         <Rectangle className="bg-light-pink center-content border-button button-light-pink">
-          <a href=""  className="pinch">
+          <a href="" className="pinch">
             {" "}
-            <img src={Gmail_logo} alt="Gmail" className="email_logo" />{" "}
+            <BiLogoGmail className="network-icon gmail"/>
           </a>
           <a href="" className="pinch">
             {" "}
-            <img src={git_logo} alt="Git Hub" className="git_logo" />{" "}
+            <FaGithub className="network-icon git" />
           </a>
-          <a href="https://www.linkedin.com/in/juan-regino/" target="_blank" className="pinch">
+          <a
+            href="https://www.linkedin.com/in/juan-regino/"
+            target="_blank"
+            className="pinch"
+          >
             {" "}
-            <img
-              src={linkedin_logo}
-              alt="Linkedin"
-              className="linkedin_logo"
-            />{" "}
+            <CiLinkedin className="network-icon linkedin"/>
           </a>
           <a href="" className="pinch">
             {" "}
-            <img src={whatsap_logo} alt="Whatsapp" className="logo" />{" "}
+            <FaWhatsapp className="network-icon wpp"/>
           </a>
         </Rectangle>
       </div>

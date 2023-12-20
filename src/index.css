@@ -10,7 +10,7 @@
 
 body {
   margin: 0;
-  font-family: "JetBrains Mono";
+  font-family: "K2D", "JetBrains Mono";
   font-style: normal;
   min-height: 100vh;
 }
@@ -37,7 +37,7 @@ body {
     height: 100vh;
     grid-template-columns: 1fr 1fr  ;
     padding-top: 6vh;
-   
+   overflow: hidden;
 }
 
 .container-center-element{
@@ -53,4 +53,18 @@ body {
 .border-box{
     border-top-right-radius: 20px; 
   border-bottom-left-radius: 20px;  
+}
+
+::-webkit-scrollbar {
+ 
+  border-color: black;
+   background-color: transparent;
+   height: .5rem;
+   
+    
+}
+::-webkit-scrollbar-thumb{
+   border-radius: 10px;
+  border:.1rem solid transparent;
+  background-color: #228dff6b;
 }

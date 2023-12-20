@@ -4,8 +4,11 @@ import Elipse from "./components/elipse";
 import jpImg from "./components/stylesHome/jpImg.jpg";
 import pointerImg from "./components/stylesHome/Pointer.png";
 import { ImageBox } from "../../components/ImageBox/ImageBox";
-
+import MaquinaEscribir from "./components/elipse/maquinaE";
 function HomePage() {
+
+
+
  
   const Img = <img src={jpImg} className="jp-img" ></img>
   const Pointer = <span className="pointer">👾</span>
@@ -14,10 +17,11 @@ function HomePage() {
     <div className="container">
       <div>
         <Rectangle className="rectangele-ligth-blue">
-          <div className="text">
+          <div className="text-home">
             <h5>Hello ! 👋</h5>
             <p>My name is Juan Pablo</p>
-            <p>I am a...</p>
+            <p>I am a... <MaquinaEscribir/></p>
+         
           </div>
 
           <Elipse />
@@ -25,7 +29,7 @@ function HomePage() {
       </div>
       <div className="bg-light-dark home-image-box">
         <ImageBox className="bg-light-blue image-box">
-         {Pointer }
+          {Pointer}
           {Img}
           <button>Juan Pablo Regino</button>
         </ImageBox>

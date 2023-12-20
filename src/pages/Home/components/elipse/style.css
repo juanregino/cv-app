@@ -1,23 +1,23 @@
-.elipse{
-    box-sizing: border-box;
-    
-        
-        width: 20rem;
-        height: 8rem;
-        left: 30rem;
-        top: 20rem;
+.elipse {
+  box-sizing: border-box;
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
+  width: 20rem;
+  height: 8rem;
+  left: 30rem;
+  top: 20rem;
 
-        font-weight: 800;
-        font-size: 2rem;
-        background: #222;
-        color: white;
-        border: 3px solid #000000;
-        border-radius: 50%;
-        transform: rotate(-7.6deg);
-        box-shadow: 1rem 1rem rgb(0, 0, 0);
-        
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 800;
+  font-size: 2rem;
+  background: #222;
+  color: white;
+  border: 3px solid #000000;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  transform: rotate(-7.6deg);
+  box-shadow: 1rem 1rem rgba(0, 0, 0, 0.823);
 }
+/* rgba(0, 0, 0, 0.542) */

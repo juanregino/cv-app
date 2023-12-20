@@ -1,6 +1,21 @@
 .containerCard {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-evenly;
+  flex-direction: column;
+  
+  width: 100vw ;
   height: 100vh;
+  padding-top: 10vh;
+}
+
+.contenedor {
+  width: 80%;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  gap: 5rem;
+  padding: 2rem;
+  scroll-behavior: smooth;
+
 }

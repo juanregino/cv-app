@@ -71,3 +71,30 @@ cursor: pointer;
 
 
 }
+.network-icon{
+    color: black;
+    font-size: 3.3rem;
+    transition: .7s;
+}
+
+.pinch .gmail:hover{
+
+color: red;
+}
+.pinch .git:hover{
+color: orangered;
+}
+
+.pinch .linkedin:hover{
+color: blue;
+}
+
+.pinch .wpp:hover{
+color: green;
+}
+
+/* .network-icon{}
+
+.network-icon{}
+
+.network-icon{} */
